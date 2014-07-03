@@ -16,3 +16,8 @@ void MainWindow::on_pushButton_released()
 {
     QMessageBox::information(this,"Hi","This is only a git test!");
 }
+
+void MainWindow::on_pushButton_2_released()
+{
+   QMessageBox::information(this,"Hi","This is another git test!");
+}
